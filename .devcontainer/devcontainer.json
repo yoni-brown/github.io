@@ -1,0 +1,4 @@
+{
+  "name": "My Dev Environment",
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code"
+}
