@@ -1,4 +1,15 @@
 {
   "name": "My Dev Environment",
-  "postCreateCommand": "npm install -g @anthropic-ai/claude-code"
+  "postCreateCommand": "npm install -g @anthropic-ai/claude-code",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "yoni-brown/equitywiser.com": {
+          "permissions": {
+            "contents": "write"
+          }
+        }
+      }
+    }
+  }
 }
